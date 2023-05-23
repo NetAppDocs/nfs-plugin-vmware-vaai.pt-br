@@ -1,0 +1,24 @@
+---
+settings:
+  name: NetApp NFS Plug-in for VMware VAAI
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: pt-br,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr,it-it
+sidebar:
+  entries:
+  - title: Plug-in NFS do NetApp para documentos do VMware VAAI
+    url: "/index.html"
+  - title: Notas de versão
+    url: "/releasenotes.html"
+  - title: Instalar e configurar
+    entries:
+    - title: Instalar o plug-in NFS do NetApp para VMware VAAI
+      url: "/task-install-netapp-nfs-plugin-for-vmware-vaai.html"
+    - title: Configurar políticas de exportação para o ONTAP para permitir o VAAI
+        em NFS
+      url: "/task-configure-export-policies-for-clustered-data-ontap-to-allow-vaai-over-nfs.html"
+  - title: Avisos legais
+    url: "/reference-legal-notices.html"
